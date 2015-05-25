@@ -12,4 +12,3 @@ func _integrate_forces(s):
 	for i in range(ccount):
 		if s.get_contact_collider_object(i).get_type() == "TileMap":
 			var metadata = s.get_contact_collider_shape_metadata(i)
-			print(metadata)
